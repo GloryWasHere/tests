@@ -8,7 +8,7 @@ local UserInputService = game:GetService("UserInputService")
 local Camera = workspace.CurrentCamera
 
 local Window = Library:CreateWindow({
-    Title = 'Legit Stuff',
+    Title = 'lua.cc',
     Center = true,
     AutoShow = true,
 })
@@ -445,7 +445,7 @@ Library.ToggleKeybind = Options.MenuKeybind
 ThemeManager:SetLibrary(Library)
 SaveManager:SetLibrary(Library)
 SaveManager:IgnoreThemeSettings()
-SaveManager:SetFolder('MyScriptHub')
+SaveManager:SetFolder('lua')
 SaveManager:BuildConfigSection(Tabs['UI Settings'])
 ThemeManager:ApplyToTab(Tabs['UI Settings'])
 
